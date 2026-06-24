@@ -3,6 +3,11 @@ locale: 'ja'
 title: "kumakki's world"
 theme: "PaperMod"
 
+params:
+  mainSections: []
+  disableHomePageList: true
+  disableSpecial1stPost: true
+
 menu:
   main:
     - name: "プロフィール"
