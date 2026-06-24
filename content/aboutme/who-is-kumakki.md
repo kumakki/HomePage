@@ -6,6 +6,7 @@ type: "page"
 layout: "page"
 showToc: true
 tocOpen: true
+weight: 10
 ---
 
 ## 基本情報

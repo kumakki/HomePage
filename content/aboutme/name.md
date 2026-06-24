@@ -6,6 +6,7 @@ type: "page"
 layout: "page"
 showToc: true
 tocOpen: true
+weight: 20
 ---
 
 ## 「kumakki」という名前が生まれた経緯

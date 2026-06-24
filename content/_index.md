@@ -6,6 +6,7 @@ type: 'page'
 layout: "page"
 ---
 
+## kumakkiの世界へようこそ！
 - ここは何？<br>
 kumakkiのホームページ的なところ。
 ちょっとしたWebページ作りの練習も兼ねて作ってみた！

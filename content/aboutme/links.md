@@ -5,6 +5,7 @@ draft: false
 toc: true
 showToc: true
 tocOpen: true
+weight: 30
 ---
 
 ## 旧Twitter（現X） 旧垢
