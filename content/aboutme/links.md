@@ -2,7 +2,8 @@
 title: "各種リンクまとめ"
 url: "/aboutme/links/"
 draft: false
-toc: true
+type: "page"
+layout: "page"
 showToc: true
 tocOpen: true
 weight: 30
