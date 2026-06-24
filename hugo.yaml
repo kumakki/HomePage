@@ -12,7 +12,7 @@ params:
 
 menu:
   main:
-    - name: "kumakkiって誰？"
+    - name: "プロフィール"
       url: "/aboutme/"
       weight: 1
       identifier: "aboutme"
