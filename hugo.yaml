@@ -4,9 +4,9 @@ title: "kumakki's world"
 theme: "PaperMod"
 
 params:
-  mainSections: []
-  disableHomePageList: true
-  disableSpecial1stPost: true
+  mainSections: ["aboutme"]
+  disableHomePageList: false
+  disableSpecial1stPost: false
 
 menu:
   main:

@@ -9,3 +9,31 @@
 .dark .header {
   background: rgba(0, 0, 0, 0.4);
 }
+
+.category-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.cat-card {
+  padding: 0.4rem 0.8rem;
+  background: var(--entry);
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--content);
+  font-size: 0.95rem;
+  border: 1px solid var(--border);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.cat-card:hover {
+  background: var(--tertiary);
+  transform: translateY(-2px);
+}
+
+.category-list {
+  margin-left: 1rem;
+  line-height: 1.6;
+}

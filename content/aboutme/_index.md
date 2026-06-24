@@ -1,8 +1,7 @@
 ---
 title: "プロフィール"
 draft: false
-type: "page"
-layout: "page"
+type: "posts"
 weight: 10
 ---
 

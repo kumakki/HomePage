@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+  {{ .Content }}
+
+  <h2>カテゴリごとのページ一覧</h2>
+  <br>
+  {{ range .Site.Sections }}
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+
+    <ul class="category-list">
+      {{ range .Pages }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  {{ end }}
+
+{{ end }}
