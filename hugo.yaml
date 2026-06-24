@@ -16,6 +16,9 @@ menu:
       url: "/aboutme/"
       weight: 1
       identifier: "aboutme"
+    - name: "kumakkiって誰？"
+      url: "/aboutme/who-is-kumakki/"
+      parent: "aboutme"
     - name: "名前について"
       url: "/aboutme/name/"
       parent: "aboutme"
