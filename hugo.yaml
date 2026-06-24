@@ -1,0 +1,50 @@
+baseURL: 'https://example.org/'
+locale: 'ja'
+title: "test page"
+theme: "PaperMod"
+
+params:
+  disableHomePageList: true
+  disableSpecial1stPost: true
+  disableScrollToTop: true
+  assets:
+    disableHLJS: false
+
+menu:
+  main:
+    - name: "kumakkiって誰？"
+      url: "/aboutme/"
+      weight: 1
+      identifier: "aboutme"
+    - name: "名前について"
+      url: "/aboutme/name/"
+      parent: "aboutme"
+    - name: "インターネットでの今まで"
+      url: "/aboutme/internet-history/"
+      parent: "aboutme"
+    - name: "VRChatでの今まで"
+      url: "/aboutme/vrchat-history/"
+      parent: "aboutme"
+    - name: "作ったもの"
+      url: "/works/"
+      weight: 2
+      identifier: "works"
+    - name: "YouTube活動"
+      url: "/youtube/"
+      weight: 3
+      identifier: "youtube"
+    - name: "ゲーム"
+      url: "/games/"
+      weight: 4
+      identifier: "games"
+    - name: "興味があること"
+      url: "/interests/"
+      weight: 5
+      identifier: "interests"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      hardWraps: true

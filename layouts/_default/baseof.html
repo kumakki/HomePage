@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" dir="{{ .Site.Params.direction | default "ltr" }}">
+<head>
+    {{ partial "head.html" . }}
+    <style>
+        /* ライトモード */
+        :root {
+            --content: #222 !important;
+        }
+
+        /* ダークモード */
+        :root.dark {
+            --content: #ddd !important;
+        }
+    </style>
+    <link rel="stylesheet" href="/css/webcard.css">
+</head>
+
+<body class="page">
+    {{ partial "header.html" . }}
+
+    <main class="main">
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    {{ partial "footer.html" . }}
+</body>
+</html>
