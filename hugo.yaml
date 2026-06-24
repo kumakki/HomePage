@@ -1,6 +1,6 @@
 baseURL: 'https://kumakki.com/'
 locale: 'ja'
-title: "test page"
+title: "kumakki's world"
 theme: "PaperMod"
 
 params:
