@@ -16,18 +16,6 @@ menu:
       url: "/aboutme/"
       weight: 1
       identifier: "aboutme"
-    - name: "kumakkiって誰？"
-      url: "/aboutme/who-is-kumakki/"
-      parent: "aboutme"
-    - name: "名前について"
-      url: "/aboutme/name/"
-      parent: "aboutme"
-    - name: "インターネットでの今まで"
-      url: "/aboutme/internet-history/"
-      parent: "aboutme"
-    - name: "VRChatでの今まで"
-      url: "/aboutme/vrchat-history/"
-      parent: "aboutme"
     - name: "作ったもの"
       url: "/works/"
       weight: 2
