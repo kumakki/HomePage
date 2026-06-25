@@ -4,14 +4,14 @@
 
   <h2>カテゴリごとのページ一覧</h2>
   <br>
-  {{ range .Site.Sections }}
-    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-
+  {{ range .Site.Sections.ByWeight }}
+    <h3><a class="category-name" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
     <ul class="category-list">
-      {{ range .Pages }}
+      {{ range .Pages.ByWeight }}
         <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
       {{ end }}
     </ul>
+    <br>
   {{ end }}
 
 {{ end }}
