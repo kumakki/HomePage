@@ -7,6 +7,7 @@ params:
   mainSections: ["aboutme"]
   disableHomePageList: false
   disableSpecial1stPost: false
+  midiplayer: "https://files.kumakki.com/software/kumakki-midi-player.zip"
 
 menu:
   main:

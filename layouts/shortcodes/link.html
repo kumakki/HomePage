@@ -1,0 +1,6 @@
+{{ $key := .Get "key" }}
+{{ $url := index site.Params $key }}
+
+{{ $text := .Get "text" }}
+
+<a href="{{ $url }}">{{ $text }}</a>
