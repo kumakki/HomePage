@@ -1,0 +1,19 @@
+{{ $img1 := .Get "img1"}}
+{{ $text1 := .Get "text1"}}
+{{ $img2 := .Get "img2"}}
+{{ $text2 := .Get "text2"}}
+
+<div style="display: flex; gap: 12px;">
+  <figure style="width: 45%; text-align: center;">
+    <img src="{{ $img1 }}" style="width: 100%;">
+    <figcaption style="font-size: 0.8rem; color: var(--contemt); margin-top: 4px;">
+      {{ $text1 }}
+    </figcaption>
+  </figure>
+  <figure style="width: 45%; text-align: center;">
+    <img src="{{ $img2 }}" style="width: 100%;">
+    <figcaption style="font-size: 0.8rem; color: var(--contemt); margin-top: 4px;">
+      {{ $text2 }}
+    </figcaption>
+  </figure>
+</div>

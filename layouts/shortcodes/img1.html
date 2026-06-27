@@ -1,0 +1,11 @@
+{{ $img := .Get "img"}}
+{{ $text := .Get "text"}}
+
+<div style="display: flex; gap: 12px;">
+  <figure style="width: 45%; text-align: center;">
+    <img src="{{ $img }}" style="width: 100%;">
+    <figcaption style="font-size: 0.8rem; color: var(--contemt); margin-top: 4px;">
+      {{ $text }}
+    </figcaption>
+  </figure>
+</div>
