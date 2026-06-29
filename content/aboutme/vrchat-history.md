@@ -5,7 +5,7 @@ type: "page"
 layout: "page"
 showToc: true
 tocOpen: true
-weight: 50
+weight: 5
 ---
 
 ## このページは何？

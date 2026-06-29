@@ -1,12 +1,11 @@
 ---
 title: "各種リンクまとめ"
-url: "/aboutme/links/"
 draft: false
 type: "page"
 layout: "page"
 showToc: true
 tocOpen: true
-weight: 30
+weight: 3
 ---
 
 ## 旧Twitter（現X） 旧垢

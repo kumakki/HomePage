@@ -1,12 +1,11 @@
 ---
 title: "名前について"
-url: "/aboutme/name/"
 draft: false
 type: "page"
 layout: "page"
 showToc: true
 tocOpen: true
-weight: 20
+weight: 2
 ---
 
 ## 「kumakki」という名前が生まれた経緯

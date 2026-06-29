@@ -1,12 +1,11 @@
 ---
 title: "kumakkiって誰？"
-url: "/aboutme/who-is-kumakki/"
 draft: false
 type: "page"
 layout: "page"
 showToc: true
 tocOpen: true
-weight: 10
+weight: 1
 ---
 
 ## 自己紹介
