@@ -35,4 +35,6 @@ markup:
     parser:
       hardWraps: true
 
-enableGitInfo: true
+frontmatter:
+  lastmod:
+    - :fileModTime
