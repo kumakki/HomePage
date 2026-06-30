@@ -1,17 +1,30 @@
 {{ define "main" }}
 
-  {{ .Content }}
+{{ .Content }}
 
-  <h2>カテゴリごとのページ一覧</h2>
-  <br>
-  {{ range .Site.Sections.ByWeight }}
-    <h3><a class="category-name" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-    <ul class="category-list">
-      {{ range .Pages.ByWeight }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-      {{ end }}
-    </ul>
-    <br>
+<h2 style="margin-bottom: 10px;">新着ページ（最大20件）</h2>
+
+<ul>
+  {{ range first 20 .Site.RegularPages.ByLastmod.Reverse }}
+  <li>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <span>（{{ .Lastmod.Format "2006-01-02" }}）</span>
+  </li>
   {{ end }}
+</ul>
+
+<br>
+
+<h2 style="margin-bottom: 10px;">カテゴリごとのページ一覧</h2>
+
+{{ range .Site.Sections.ByWeight }}
+<h3><a class="category-name" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+<ul class="category-list">
+  {{ range .Pages.ByWeight }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+<br>
+{{ end }}
 
 {{ end }}

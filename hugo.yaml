@@ -34,3 +34,5 @@ markup:
       unsafe: true
     parser:
       hardWraps: true
+
+enableGitInfo: true
