@@ -6,6 +6,7 @@ layout: "page"
 showToc: true
 tocOpen: true
 weight: 5
+lastmod: 2026-06-30
 ---
 
 ## このページは何？

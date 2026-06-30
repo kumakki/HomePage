@@ -34,7 +34,3 @@ markup:
       unsafe: true
     parser:
       hardWraps: true
-
-frontmatter:
-  lastmod:
-    - :fileModTime

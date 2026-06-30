@@ -6,6 +6,7 @@ layout: "page"
 showToc: true
 tocOpen: true
 weight: 1
+lastmod: 2026-06-26
 ---
 
 ## Kumakki MIDI Playerとは

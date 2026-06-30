@@ -6,6 +6,7 @@ layout: "page"
 showToc: true
 tocOpen: true
 weight: 4
+lastmod: 2026-06-29
 ---
 
 ## 太鼓さん次郎とは

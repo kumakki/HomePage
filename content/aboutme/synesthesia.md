@@ -6,6 +6,7 @@ layout: "page"
 showToc: true
 tocOpen: true
 weight: 6
+lastmod: 2026-06-29
 ---
 
 ## 共感覚ってやつらしい？

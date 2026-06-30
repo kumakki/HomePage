@@ -6,6 +6,7 @@ layout: "page"
 showToc: true
 tocOpen: true
 weight: 2
+lastmod: 2026-06-29
 ---
 
 ## 「kumakki」という名前が生まれた経緯
