@@ -7,8 +7,8 @@
 <ul>
   {{ range first 20 .Site.RegularPages.ByLastmod.Reverse }}
   <li>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    <span>（{{ .Lastmod.Format "2006-01-02" }}）</span>
+    <a href="{{ .RelPermalink }}">{{ .Title }} （{{ .Lastmod.Format "2006-01-02" }}）</a>
+    <span style="font-size: 10pt;">（{{ partial "section-name.html" . }}）</span>
   </li>
   {{ end }}
 </ul>

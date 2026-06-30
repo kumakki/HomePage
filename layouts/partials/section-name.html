@@ -1,0 +1,12 @@
+{{/* section-name.html */}}
+
+{{ $section := .Section }}
+{{ $name := $section }}
+
+{{ range site.Menus.main }}
+  {{ if eq .Identifier $section }}
+    {{ $name = .Name }}
+  {{ end }}
+{{ end }}
+
+{{ $name }}
