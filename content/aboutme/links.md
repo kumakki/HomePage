@@ -6,7 +6,7 @@ layout: "page"
 showToc: true
 tocOpen: true
 weight: 3
-lastmod: 2026-06-29
+lastmod: 2026-08-29
 ---
 
 ## 旧Twitter（現X） 旧垢
