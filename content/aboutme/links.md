@@ -6,7 +6,7 @@ layout: "page"
 showToc: true
 tocOpen: true
 weight: 3
-lastmod: 2026-08-30
+lastmod: 2026-09-18
 ---
 
 ## 旧Twitter（現X） 旧垢
@@ -126,7 +126,7 @@ TLでいっぱい流れてきたから登録してみたやつ。
 
 ## マシュマロ
 
-{{<webcard url="https://marshmallow-qa.com/o6lqa9hp09ozock">}}
+{{<webcard url="https://marshmallow-qa.com/o6lqa9hp09ozock?t=rPiMUQ&utm_medium=url_text&utm_source=promotion">}}
 
 なんとなく登録してみた！
 何か匿名でメッセージ送りたい方いればぜひご気軽に！！
