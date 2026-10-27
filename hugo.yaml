@@ -27,6 +27,10 @@ menu:
       url: "/knowledge/"
       weight: 4
       identifier: "knowledge"
+    - name: "配布物"
+      url: "/distribution/"
+      weight: 5
+      identifier: "distribution"
 
 markup:
   goldmark:

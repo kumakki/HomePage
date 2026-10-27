@@ -68,4 +68,4 @@ Black MIDI扱うなら秒間ノーツ数とか合計ノーツ数は欲しいよ�
 バージョン管理もろくにしてないし、不具合見つけても直すかは気分次第。
 でもせっかくこういう解説ページ作ったなら配布してみるのもありかな？と思いとりあえず置くだけ置いてみる。
 
-{{< link key="midiplayer" text="MIDIプレイヤーのダウンロード" >}}
+[MIDIプレイヤーのダウンロード]( /distribution/software/kumakki-midi-player/ )<br>

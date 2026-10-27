@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+<article class="distribution-page">
+
+  <!-- 見出し -->
+  <h1>{{ .Title }} のダウンロード</h1>
+  <br>
+
+  <!-- 基本情報（箇条書き） -->
+  <section>
+    <ul>
+      <li><strong>ファイル名:</strong> {{ .Params.id }}</li>
+      <li><strong>説明:</strong> {{ .Params.description }}</li>
+      <li><strong>容量:</strong> {{ .Params.size }}</li>
+      <li><strong>更新日:</strong> {{ .Params.lastmod.Format "2006-01-02" }}</li>
+    </ul>
+  </section>
+
+  <!-- ダウンロードボタン -->
+  <p>
+   <br>
+    <a href="https://files.kumakki.com/download/{{ .Params.uuid }}" class="download-button">
+      Download（{{ .Params.size }}）
+    </a>
+   <br>
+  </p>
+
+  <hr>
+
+
+</article>
+
+<!-- ボタンのスタイル（ライト／ダーク完全対応） -->
+<style>
+  .download-button {
+    display: inline-block;
+    padding: 0px 8px;
+    border: 2px solid currentColor;   /* テーマの文字色に自動追従 */
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .download-button:hover {
+    background: currentColor;         /* テーマの文字色を背景に */
+    color: var(--theme-bg);           /* テーマの背景色を文字色に */
+  }
+</style>
+
+{{ end }}
